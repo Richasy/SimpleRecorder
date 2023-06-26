@@ -39,7 +39,7 @@
                     VerticalAlignment="Top"
                     Content="Use source size as video resolution"
                     IsChecked="False" />
-                <Button Click="PickAudioFile">Pick Mp3 File</Button>
+                <!--<Button Click="PickAudioFile">Pick Mp3 File</Button>-->
                 <TextBlock x:Name="audioName">Not picked yet</TextBlock>
             </StackPanel>
         </Grid>
@@ -63,14 +63,16 @@
                     Unchecked="ToggleButton_Unchecked">
                     <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE722;" />
                 </ToggleButton>
-                <StackPanel
+                <!--<StackPanel
                     Margin="0,20,0,0"
                     Orientation="Horizontal"
                     Spacing="4">
                     <Button Click="StartCaptureAudio">Start Capture Audio</Button>
                     <Button Click="StopCaptureAudio">Stop Capture Audio</Button>
-                    <!--<Button x:Name="muteButton" Click="ToggleMute">Mute/Unmute</Button>-->
-                </StackPanel>
+                -->
+                <!--<Button x:Name="muteButton" Click="ToggleMute">Mute/Unmute</Button>-->
+                <!--
+                </StackPanel>-->
             </StackPanel>
         </Grid>
 
